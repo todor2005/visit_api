@@ -13,6 +13,8 @@ import java.sql.Date;
  * @author Todor
  */
 public class VTCities {
+    
+    
 
     private int id = 0;
     private String name = "";
