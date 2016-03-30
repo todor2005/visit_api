@@ -14,6 +14,8 @@ public class VTSecretQuesion {
     private int id = 0;
     private char code = ' ';
     private String question_bg = "";
+    
+    public static final String GET_LST = "vtSecretQuesion";
 
     public int getId(){
         return id;
@@ -42,5 +44,5 @@ public class VTSecretQuesion {
     
     
     
-    public static final String GET_LST = "vtCitiesGetList";
+    
 }
