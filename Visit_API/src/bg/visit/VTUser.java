@@ -5,9 +5,6 @@
 package bg.visit;
 
 import java.sql.Date;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.ArrayList;
 
 /**
  *
@@ -28,6 +25,9 @@ public class VTUser {
     private String answer = "";
     private Date timeins = new Date( 0 );
     private Date timemod = new Date( 0 );
+    
+    public static final String GET_LST = "vtUser";
+    public static final String GET_AddDelMod = "vtAddDelMod";
 
     /**
      * Creates empty user
@@ -116,7 +116,7 @@ public class VTUser {
     }
 
     public void setIdCoutry( int id_country ){
-        this.id_city = id_country;
+        this.id_country = id_country;
     }
 
     public int getAge(){
